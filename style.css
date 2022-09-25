@@ -1,0 +1,166 @@
+main{
+    display: flex;
+    height: 45em;
+    background: radial-gradient(#fff 20%, rgb(105, 105, 227));  
+ }
+  
+ body, .inpuText, .Pantalla, .Encriptar , .Desencriptar, .copiar {
+    font-family:'Aref Ruqaa Ink', serif  
+ }
+     
+ .logo{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-star;
+   padding: 0px;
+   gap: 50px;
+   position: absolute;
+   width: 120px;
+   height: 48px;
+   left: 130px;;
+   top: 80px;   
+ }
+
+ .titulo{
+   font-size: 2.5rem;
+   text-align: center;
+}
+ 
+ .inpuText{
+    position: absolute;
+    padding: 8rem;
+    width: 50%;
+    height: 40%;
+    left: auto;
+    border: navajowhite;
+    resize: none;
+    outline: none;
+    font-size: 35px;
+    left: 10%;
+    top: 20%;
+    background: rgb(226, 204, 171); 
+ }
+ 
+ .caja-mensaje{
+    position: absolute;
+    width: 350px;
+    height: 400px;   
+    left: 60%;
+    top:20%;
+ }
+ 
+ .Pantalla{
+    position: absolute;
+    resize: none;
+    outline: none;
+ 
+    width: 70%;
+    height: 125%;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -10%;
+    border-radius: 20px;
+    background-color: #d97b7b;  
+ }
+
+ .muñeco{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+      gap: 45px;
+      position: absolute;
+      width: 175px;
+      height:  175px;
+      left: 45px;
+      top: 60px;
+ }
+ 
+ .imagenM{
+    position: sticky;
+    padding: 20% 20px 20px 20px;
+    width: 70%;
+    height: 45%;
+    text-align: center;
+    /*opacity: 0;*/   
+ }
+ 
+ .Muñeco_hide{
+   opacity: 5;  
+ }
+ 
+ .texto-mens{
+    width: 150%;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;   
+    left: 3em;  
+    width: 150px;  
+    top: 270px;   
+ }
+
+ .mensaje-pe{
+    font-size: 9px;
+    line-height: 10px;
+ }
+ 
+ 
+ button{
+    padding: 20px 50px;
+    font-size: 1.5em;
+    border-radius: 6rem;
+    box-shadow:10px 10px #181717c3;
+    border: none;
+    text-align: center;   
+ }
+ 
+ .botones{
+    position: absolute;
+    margin-top: 50%;
+    text-align: center;
+    bottom: 20%;
+    left: 25%;
+ }
+ 
+ .copiar{
+   position: relative;   
+   left: 2em;
+   opacity: 90%;  
+   width: 150px;  
+   top: 320px;
+ }
+
+ .copiar_hide{
+    opacity: 20%;
+ }
+
+ .Encriptar{
+    background-color: rgba(147, 37, 244, 0.824);
+    color: aliceblue;
+ }
+ 
+ .Desencriptar{
+    background-color: #d0ea98;
+ }
+
+  footer{
+    background: rgb(158, 244, 205);
+    color: #0b0b0b;
+    text-align: center;
+    font-size: 1.5em;
+    height: 4rem;
+    padding: 10px;
+  }
+ 
+  .ins{
+    width: 4%;
+    top: 70%;
+  }
+  
+  @media screen and (max-width:480px) {

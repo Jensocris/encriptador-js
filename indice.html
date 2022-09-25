@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2? familia= Aref+Ruqaa+Tinta:peso@700 &family= Montserrat:wght@300 & display=swap" rel="stylesheet">
+
+    </head>
+
+        <body>
+            <header>
+                <div>
+            
+                    <h1 class="titulo">Visión de un texto</h1> 
+                </div>
+            
+            </header>
+
+        <main>
+            <section >
+                <img class="logo" src="./Logo.png" alt="Logo Alura">
+                    <div>
+                        <textarea class="inpuText" cols="40" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+                            <div class="botones">
+                                <button  class="Encriptar" onclick="btEncriptar()">Encriptar</button>
+                                <button  class="Desencriptar" onclick="btDesencriptar()">Desencriptar</button>                          
+                            </div>  
+                    </div>
+               
+                
+            </section>
+                <section> 
+
+                    <div class="caja-mensaje">
+                        <textarea name="" id=""  readonly="" class="Pantalla"> </textarea>
+
+                            <div class="Muñeco">
+                                  <img class="muñeco" src="./Muñeco.png" alt="Muñeco">
+                            </div>
+                            
+                        <div class="texto-mens">
+                            <h3>Ningun mensaje fue encontrado</h3>
+                            <p class="mensaje-pe" >Ingrese el texto que desea encriptar o desencriptar </p>                  
+                        </div>             
+                            <button  class="copiar" onclick="copy()">Copiar</button>
+                    </div>                  
+            
+                 </section>
+        </main>
+            <script src="script.js"></script>
+
+            <footer>
+                Jensocris/Jcc      
+            </footer>
+        
+        </body>
+</html>
